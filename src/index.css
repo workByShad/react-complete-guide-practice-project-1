@@ -1,0 +1,23 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.border {
+  border: thick solid red;
+}
+
+.flexbox-container {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.placeholder {
+  max-width: 50vh;
+}
